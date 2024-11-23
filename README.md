@@ -10,5 +10,8 @@ The rewritten transferItem function includes the following security enhancements
   - The contract checks if the new owner is not address(0), which prevents attackers from sending funds to an empty account and then transferring ownership back to themselves.
 #	Unauthorized access protection
 - Additional validation ensures that the item's original owner cannot transfer it back to their own wallet, preventing unauthorized transfers.
+# Output
 
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/fd23605c-68e3-4332-918b-d21e283490c1">
+![Uploading image.png…]()
 
